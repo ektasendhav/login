@@ -1,0 +1,75 @@
+ *{
+    font-family: "Montserrat", "sans-serif";
+    margin: 0;
+    padding: 0;
+    box-sizing: "border-box";
+  } 
+
+ 
+  footer {
+    background-color: #0c2b64;
+    padding: 15px 0;
+    text-align: center;
+    box-sizing: "border-box";
+    margin: 0;
+    
+    
+}
+
+.footer-container {
+    display: flex;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+    color: #ffffff;
+    
+
+    
+}
+
+.left-content {
+    flex: 1;
+    text-align: left;
+    width: 25rem;
+    position: relative;
+}
+
+.center-content {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px; /* Reduce space between logos */
+}
+
+.gov-logo {
+    height: 95px;
+    width: auto;
+}
+
+.right-links {
+    flex: 1;
+    text-align: right;
+}
+
+.right-links a {
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: bold;
+    margin: 0 5px;
+}
+
+.right-links a:hover {
+    text-decoration: underline;
+}
+
+.ft
+{
+    position: fixed;
+    bottom: 0;
+    background-color: #0c2b64;
+    width: 100%;
+    margin: 0%;
+}
+
