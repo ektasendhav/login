@@ -139,20 +139,13 @@ body {
   border-color: #5F41E4;
 }
 
-.login-form .input-wrapper .icone3 {
-    color: #a395e0;
-    position: absolute;
-    top: 16.7rem ;
-    left: 2.5rem;
-    pointer-events: none;
-    transform: translateY(-50%);
-  }
-
-
-.login-form .input-wrapper .icone {
+.login-form .input-wrapper .input-field .option1 {
+  color: ;
+}
+.login-form .input-wrapper .icone1 {
   color: #a395e0;
   position: absolute;
-  top: 35rem;
+  top: 17rem;
   left: 2.5rem;
   pointer-events: none;
   transform: translateY(-50%);
@@ -163,13 +156,31 @@ body {
 .login-form .input-wrapper .icone2 {
   color: #a395e0;
   position: absolute;
-  top: 100rem ;
+  top: 21.7rem ;
   left: 2.5rem;
   pointer-events: none;
   transform: translateY(-50%);
 }
 
-.login-form .input-wrapper .input-field:focus ~ .icone {
+.login-form .input-wrapper .icone3 {
+  color: #a395e0;
+  position: absolute;
+  top: 26.3rem ;
+  left: 2.5rem;
+  pointer-events: none;
+  transform: translateY(-50%);
+}
+
+.login-form .input-wrapper .icone4 {
+  color: #a395e0;
+  position: absolute;
+  top: 31.5rem ;
+  left: 2.5rem;
+  pointer-events: none;
+  transform: translateY(-50%);
+}
+
+.login-form .input-wrapper .input-field:focus ~ .icone1 {
   color: #5F41E4;
 } 
 
@@ -179,8 +190,13 @@ body {
 }
 
 .login-form .input-wrapper .input-field:focus ~ .icone3 {
-    color: #5F41E4;
-  } 
+  color: #5F41E4;
+}
+
+.login-form .input-wrapper .input-field:focus ~ .icone4 {
+  color: #5F41E4;
+}
+
 
 .login-form .forget-pass-link{
   display: block;

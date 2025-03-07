@@ -1,3 +1,102 @@
-.nav1 {
-    background-color:#0c2b64 ;
+/* Navbar Container */
+
+
+
+
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    min-height: 100px;
+    /* height: 500px; */
 }
+.navbar {
+    width: 100%;
+    display: flex;
+    /* justify-content: space-between; Space between left, center, right */
+    align-items: center;
+    background-color: #f8f9fa; /* Light background */
+    padding: 0.5rem 1rem;
+  }
+  
+  /* Navbar Brand (Left Side) */
+  .navbar-brand {
+    display: flex;
+    align-items: center;
+    margin-left: 55px;
+  }
+  
+  .navbar-brand img {
+    height: 90px; /* Adjust as needed */
+  }
+  
+  /* Center Navigation Items */
+  .navbar-nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .navbar-nav li {
+    margin: 0 1rem; /* Space between nav items */
+  }
+  
+  .navbar-nav li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: 500;
+    transition: color 0.3s ease;
+  }
+  
+  .navbar-nav li a:hover {
+    color: #5F41E4;
+  }
+  
+  /* Right Side: Login & Signup Buttons */
+  .nav-buttons {
+    display: flex;
+    align-items: center;
+  }
+  
+  .nav-buttons a {
+    text-decoration: none;
+    color: #5F41E4;
+    border: 1px solid #5F41E4;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    margin-left: 1rem; /* Space between buttons */
+    transition: background-color 0.3s ease, color 0.3s ease;
+    margin-left: 100px;
+  }
+  
+  .nav-buttons a:hover {
+    background-color: #5F41E4;
+    color: #fff;
+  }
+
+  .nav-buttons .button1 {
+    border-radius: 5px;
+    border-color: #f68723;
+    background-color: #f68723;
+    margin-right: 35px;
+    margin-left: 200px;
+    padding: 6px 40px 6px 40px;
+  }
+
+  .nav-buttons .button2 {
+    border-radius: 5px;
+    border-color: #f68723;
+    background-color: #f68723;
+    margin-right: 35px;
+    padding: 6px 35px 6px 35px;
+  }
+
+  .collapse {
+    pa
+  }
+  
